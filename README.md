@@ -4,7 +4,7 @@ I built a QLoRA fine tuning project for Google's Gemma 2B Instruct model.
 
 My project currently looks like this:
 
-Base model: google/gemma-2-2b-it
+Base model: google/gemma-2-2b-it/n
 Task: Supervised Fine Tuning (SFT), instruction tuning
 Method: QLoRA
 Quantization: 4-bit NF4 using BitsAndBytes

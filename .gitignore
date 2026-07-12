@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face
+.cache/
+huggingface/
+hf_cache/
+
+# Model checkpoints
+gemma2-sft/
+output/
+outputs/
+checkpoints/
+checkpoint-*/
+
+# Saved models
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Logs
+logs/
+runs/
+events.out.tfevents*
+
+# Dataset cache
+data/
+datasets/
+cache/
+
+# Environment variables
+.env
+# OS files
+.DS_Store
+Thumbs.db
